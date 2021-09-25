@@ -1,1 +1,1 @@
-# freeCodeCampChallenge
+# JS-Practice
