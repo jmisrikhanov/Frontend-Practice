@@ -1,0 +1,22 @@
+/* centering Div in CSS 3 ways */
+
+/* 1 */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2 */
+.box {
+  display: grid;
+  place-items: center;
+}
+
+/* 3 */
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
