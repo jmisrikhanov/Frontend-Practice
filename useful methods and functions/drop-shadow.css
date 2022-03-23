@@ -1,0 +1,18 @@
+/* Drop-shadow in CSS */
+
+/* This property is similar to the box-shadow property but the main difference is that box-shadow is creating a rectangular
+shape around your object. */
+
+/* Here you can get the same shape as your image, SVG icon, or whatever. */
+
+.blue-right-shadow {
+  filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+.purple-top-shadow {
+  filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+}
+
+.crimson-center-shadow {
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
