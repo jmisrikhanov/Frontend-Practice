@@ -3,4 +3,4 @@
 
 const currentURL = () => window.location.href;
 
-currentURL(); // 'https://medium.com/@fatosmorina'
+currentURL();
