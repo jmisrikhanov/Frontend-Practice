@@ -4,6 +4,7 @@ var romanToInt = function (s) {
 
   let res = 0;
 
+  //   You need .split('') to convert the string to a character array
   s.split("").forEach((num, i) => {
     if (map[num] < map[s[i + 1]]) res -= map[num];
     else res += map[num];
