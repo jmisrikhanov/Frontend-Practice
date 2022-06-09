@@ -5,6 +5,7 @@ var isValid = function (s) {
     if (hashMap[char]) {
       heap.push(hashMap[char]);
     } else {
+      // pop returns the last element
       if (heap.pop() !== char) return false;
     }
   }
